@@ -1,17 +1,30 @@
 // find a particular previousmonthvisits by name
+const dateFormat = require('dateformat');
+
+const lastMonth = () => {
+  var now = new Date();
+  now.setDate(1);
+  now.setMonth(now.getMonth() - 1);
+
+  return dateFormat(now, "yyyy'-'mm");
+};
+
 const search = (z, bundle) => {
   const responsePromise = z.request({
     url: `https://api.similarweb.com/v1/website/${bundle.inputData.domain}/total-traffic-and-engagement/visits`,
     params: {
       granularity: 'monthly',
       main_domain_only: bundle.inputData.main_domain_only,
-      start_date: bundle.inputData.start_date,
-      end_date: bundle.inputData.end_date,
-      api_key: bundle.authData.api_key
+      start_date: bundle.inputData.start_date || lastMonth(),
+      end_date: bundle.inputData.end_date || lastMonth(),
+      api_key: bundle.authData.api_key,
+      country: 'gb'
     }
   });
 
   return responsePromise.then(response => z.JSON.parse(response.content).visits);
+
+  //return responsePromise.then(response => console.log(response));
 };
 
 module.exports = {
@@ -26,8 +39,8 @@ module.exports = {
   operation: {
     inputFields: [
       { key: 'domain', required: true, helpText: 'Retrieve monthly visits to this domain' },
-      { key: 'start_date', required: true, helpText: 'Starting from this month (YYYY-MM)' },
-      { key: 'end_date', required: true, helpText: 'Ending at this month (YYYY-MM)' },
+      { key: 'start_date', required: false, helpText: 'Starting from this month (YYYY-MM), defaults to previous month' },
+      { key: 'end_date', required: false, helpText: 'Ending at this month (YYYY-MM), defaults to previous month' },
       { key: 'main_domain_only', required: true, type: 'boolean', helpText: 'Search main domain only?' }
     ],
 
