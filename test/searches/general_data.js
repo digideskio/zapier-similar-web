@@ -8,27 +8,27 @@ const appTester = zapier.createAppTester(App);
 zapier.tools.env.inject();
 
 describe('My App', () => {
-  it('should run searchs.previous_month_visits', done => {
+  it('should run searchs.general_data', done => {
     const bundle = {
-      inputData: { main_domain_only: false, domain: 'cnn.com', start_date: '2017-06', end_date: '2018-01' },
+      inputData: { domain: 'cnn.com' },
       authData: { api_key: process.env['API_KEY'] }
     };
 
-    const response = { visits: [{ date: '2017-06', visits: 1000 }] };
+    const response = { estimated_monthly_visits: {}, title: 'title' };
 
     nock('https://api.similarweb.com/v1/website')
-      .get('/cnn.com/total-traffic-and-engagement/visits')
+      .get('/cnn.com/general-data/all')
       .query(true)
       .reply(200, response);
 
-    appTester(App.searches.previous_monthly_visits.operation.perform, bundle)
+    appTester(App.searches.general_data.operation.perform, bundle)
       .then(results => {
         should.exist(results);
         results.length.should.eql(1);
-
-        const visits = results[0];
-        visits.date.should.eql('2017-06');
-        visits.visits.should.eql(1000);
+        
+        // const visits = results[0];
+        // visits.date.should.eql('2017-06');
+        // visits.visits.should.eql(1000);
 
         done();
       })

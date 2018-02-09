@@ -1,4 +1,4 @@
-const visitsSearch = require('./searches/previous_monthly_visits');
+const generalDataSearch = require('./searches/general_data');
 const auth = require('./auth')
 
 // Now we can roll up all our behaviors in an App.
@@ -25,7 +25,7 @@ const App = {
 
   // If you want your searches to show up, you better include it here!
   searches: {
-    [visitsSearch.key]: visitsSearch
+    [generalDataSearch.key]: generalDataSearch
   },
 
   // If you want your creates to show up, you better include it here!
