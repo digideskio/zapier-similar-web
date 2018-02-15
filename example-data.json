@@ -1,0 +1,465 @@
+{
+  "site_name": "ask.com",
+  "is_site_verified": false,
+  "category": "Internet_and_Telecom/Search_Engine",
+  "large_screenshot": "https://site-images.similarcdn.com/image?url=ask.com&t=1&s=1&h=2275827503482016226",
+  "reach_months": 6,
+  "data_months": 1,
+  "global_rank": {
+    "rank": 341,
+    "direction": -7
+  },
+  "country_rank": {
+    "country": 840,
+    "rank": 320,
+    "direction": 2
+  },
+  "category_rank": {
+    "category": "Internet_and_Telecom/Search_Engine",
+    "rank": 69,
+    "direction": -1
+  },
+  "title": "ask.com - what's your question?",
+  "description": "ask.com is the #1 question answering service that delivers the best answers from the web and real people - all in one place.",
+  "redirect_url": "ask.com",
+  "estimated_monthly_visits": {
+    "2017-08-01": 255531415,
+    "2017-09-01": 227030315,
+    "2017-10-01": 246260825,
+    "2017-11-01": 249348031,
+    "2017-12-01": 225190770,
+    "2018-01-01": 220857250
+  },
+  "engagments": {
+    "year": 2018,
+    "month": 1,
+    "visits": 220857250.12760288,
+    "time_on_site": 261.92853073818873,
+    "page_per_visit": 2.4397743066766662,
+    "bounce_rate": 0.53620374970043616
+  },
+  "top_country_shares": [{
+    "country": 840,
+    "value": 0.1885529981695766,
+    "change": -0.04330264803723511
+  }, {
+    "country": 76,
+    "value": 0.0878873707474998,
+    "change": 0.11348882063632759
+  }, {
+    "country": 356,
+    "value": 0.060489991998321474,
+    "change": -0.12617174196501496
+  }, {
+    "country": 276,
+    "value": 0.039312792013382704,
+    "change": 0.15881505019659478
+  }, {
+    "country": 484,
+    "value": 0.0364367191881652,
+    "change": 0.15588020991581808
+  }],
+  "total_countries": 221,
+  "traffic_sources": {
+    "search": 0.09972319739645015,
+    "social": 0.0058301325358187175,
+    "mail": 0.003297270581171791,
+    "paid _referrals": 0.001413262483280981,
+    "direct": 0.81597277049796257,
+    "referrals": 0.073763366505315855
+  },
+  "referrals_ratio": 0.073763366505315855,
+  "top_referring": [{
+    "site": "search.norton.com",
+    "value": 0.89428253144647951,
+    "change": -0.053905733423369427
+  }, {
+    "site": "r.searchencrypt.com",
+    "value": 0.018860263934964448,
+    "change": 0.17623444945493036
+  }, {
+    "site": "searchnu.com",
+    "value": 0.015445344874444336,
+    "change": 0.066181197318515225
+  }, {
+    "site": "home.torchbrowser.com",
+    "value": 0.0076542572456848165,
+    "change": 0.27435364752168062
+  }, {
+    "site": "findgofind.co",
+    "value": 0.0065210693639030483,
+    "change": 0.29282111030283758
+  }],
+  "total_referring": 1000,
+  "top_destinations": [{
+    "site": "hp.myway.com",
+    "value": 0.31948373540853753,
+    "change": 0.089937126666568334
+  }, {
+    "site": "youtube.com",
+    "value": 0.25062368049670453,
+    "change": -0.17244504890598211
+  }, {
+    "site": "facebook.com",
+    "value": 0.23096152128544278,
+    "change": -0.089352454578899024
+  }, {
+    "site": "mail.google.com",
+    "value": 0.075250451172671012,
+    "change": -0.064031604825035643
+  }, {
+    "site": "accounts.google.com",
+    "value": 0.031700114675779392,
+    "change": -0.16417154774781906
+  }],
+  "total_destinations": 210,
+  "search_ratio": 0.09972319739645015,
+  "top_organic_keywords": [{
+    "keyword": "ask.com",
+    "value": 0.030273771490184769,
+    "change": -0.048881512189654558
+  }, {
+    "keyword": "ask jeeves",
+    "value": 0.027085317685049945,
+    "change": 0.31928892385945878
+  }, {
+    "keyword": "ask",
+    "value": 0.02309534451309175,
+    "change": -0.017947726736530632
+  }, {
+    "keyword": "google",
+    "value": 0.0064888295175192685,
+    "change": 0.1922708122826931
+  }, {
+    "keyword": "hna fritzlar",
+    "value": 0.0049823364246616248,
+    "change": 0.0
+  }],
+  "top_paid_keywords": [{
+    "keyword": "fidelity.com",
+    "value": 0.00938987327132599,
+    "change": 0.0
+  }, {
+    "keyword": "ask",
+    "value": 0.0070555310475269618,
+    "change": 1.0939087694878298
+  }, {
+    "keyword": "ask jeeves",
+    "value": 0.0058449712104832715,
+    "change": -0.4511698954210025
+  }, {
+    "keyword": "receitade bacalhau",
+    "value": 0.0048148024778275015,
+    "change": 0.0
+  }, {
+    "keyword": "detran rj",
+    "value": 0.0048148024778275015,
+    "change": 0.0
+  }],
+  "organic_keywords_rolling_unique_count": 6841,
+  "paid_keywords_rolling_unique_count": 2986,
+  "organic_search_share": 0.83840371208866327,
+  "paid_search_share": 0.16159628791133673,
+  "social_ratio": 0.0058301325358187175,
+  "top_social": [{
+    "name": "Youtube",
+    "icon": "https://site-images.similarcdn.com/image?url=youtube.com&t=2&s=1&h=17712117643342877724",
+    "site": "youtube.com",
+    "value": 0.52010141582518588,
+    "change": 0.0
+  }, {
+    "name": "Facebook",
+    "icon": "https://site-images.similarcdn.com/image?url=facebook.com&t=2&s=1&h=1215141726915202198",
+    "site": "facebook.com",
+    "value": 0.40115725193103352,
+    "change": 0.0
+  }, {
+    "name": "Twitter",
+    "icon": "https://site-images.similarcdn.com/image?url=twitter.com&t=2&s=1&h=10579170047716684205",
+    "site": "twitter.com",
+    "value": 0.01607818149499991,
+    "change": 0.0
+  }, {
+    "name": "Pinterest",
+    "icon": "https://site-images.similarcdn.com/image?url=pinterest.com&t=2&s=1&h=6256955287336076212",
+    "site": "pinterest.com",
+    "value": 0.010318612575710337,
+    "change": 0.0
+  }, {
+    "name": "WhatsApp Webapp",
+    "icon": "https://site-images.similarcdn.com/image?url=web.whatsapp.com&t=2&s=1&h=15397007900403368841",
+    "site": "web.whatsapp.com",
+    "value": 0.009901225635075948,
+    "change": 0.0
+  }],
+  "display_ads_ratio": 0.001413262483280981,
+  "top_publishers": [{
+    "site": "cse.google.fr",
+    "value": 0.038101596632931077,
+    "change": 0.0
+  }, {
+    "site": "hellosearch.fr",
+    "value": 0.035427800377988539,
+    "change": 0.0
+  }, {
+    "site": "silver-search.com",
+    "value": 0.025518381332861596,
+    "change": 0.0
+  }, {
+    "site": "ww38.sssyoutube.com",
+    "value": 0.018768828254830786,
+    "change": 0.0
+  }, {
+    "site": "g.minosearch.com",
+    "value": 0.018537589685620106,
+    "change": 0.0
+  }],
+  "top_ad_networks": [{
+    "site": "Google Display Network",
+    "value": 0.74747022928273221,
+    "change": 0.0
+  }, {
+    "site": "Media.net",
+    "value": 0.11560971519027539,
+    "change": 0.0
+  }, {
+    "site": "Outbrain",
+    "value": 0.057536707788314496,
+    "change": 0.0
+  }, {
+    "site": "adMarketplace",
+    "value": 0.035287888877973281,
+    "change": 0.0
+  }, {
+    "site": "Paid Referrals",
+    "value": 0.023269834580065325,
+    "change": 0.0
+  }, {
+    "site": "Other",
+    "value": 0.020825624280639197,
+    "change": 0.0
+  }],
+  "incoming_ads_rolling_unique_count": 718,
+  "top_categories_and_fills": [{
+    "category": "Unknown",
+    "affinity": 0.74867492611217334
+  }, {
+    "category": "Computer_and_Electronics/Software",
+    "affinity": 0.25132507388782671
+  }],
+  "top_tags_and_strength": [{
+    "tag": "ton",
+    "strength": 0.87638321115347861
+  }, {
+    "tag": "search",
+    "strength": 0.87638321115347861
+  }, {
+    "tag": "nor",
+    "strength": 0.87638321115347861
+  }, {
+    "tag": "top",
+    "strength": 0.83237984610836679
+  }, {
+    "tag": "from",
+    "strength": 0.83237984610836679
+  }, {
+    "tag": "download",
+    "strength": 1.0
+  }, {
+    "tag": "doc",
+    "strength": 0.83237984610836679
+  }, {
+    "tag": "video",
+    "strength": 0.554205550127939
+  }, {
+    "tag": "converter",
+    "strength": 0.554205550127939
+  }, {
+    "tag": "free",
+    "strength": 0.554205550127939
+  }],
+  "top_also_visited": ["free.fromdoctopdf.com", "search.norton.com", "download.fromdoctopdf.com", "hp.myway.com", "easypdfcombine.com"],
+  "also_visited_unique_count": 1000,
+  "similar_sites": [{
+    "site": "altavista.com",
+    "screenshot": "https://site-images.similarcdn.com/image?url=altavista.com&t=0&s=1&h=1370783144133752504",
+    "rank": 331164
+  }, {
+    "site": "answers.com",
+    "screenshot": "https://site-images.similarcdn.com/image?url=answers.com&t=0&s=1&h=16702186871611929971",
+    "rank": 4156
+  }, {
+    "site": "webcrawler.com",
+    "screenshot": "https://site-images.similarcdn.com/image?url=webcrawler.com&t=0&s=1&h=6798439711187463300",
+    "rank": 5080
+  }, {
+    "site": "dogpile.com",
+    "screenshot": "https://site-images.similarcdn.com/image?url=dogpile.com&t=0&s=1&h=11581571143950127821",
+    "rank": 6277
+  }, {
+    "site": "searchenginecolossus.com",
+    "screenshot": "https://site-images.similarcdn.com/image?url=searchenginecolossus.com&t=0&s=1&h=6877032064247082647",
+    "rank": 1388210
+  }, {
+    "site": "google.com",
+    "screenshot": "https://site-images.similarcdn.com/image?url=google.com&t=0&s=1&h=300811983108016870",
+    "rank": 1
+  }, {
+    "site": "mamma.com",
+    "screenshot": "https://site-images.similarcdn.com/image?url=mamma.com&t=0&s=1&h=4360848931015573403",
+    "rank": 786050
+  }, {
+    "site": "hotbot.com",
+    "screenshot": "https://site-images.similarcdn.com/image?url=hotbot.com&t=0&s=1&h=15612643325022199099",
+    "rank": 646413
+  }, {
+    "site": "lycos.com",
+    "screenshot": "https://site-images.similarcdn.com/image?url=lycos.com&t=0&s=1&h=18132352868350982468",
+    "rank": 23979
+  }, {
+    "site": "excite.com",
+    "screenshot": "https://site-images.similarcdn.com/image?url=excite.com&t=0&s=1&h=1520926905632194335",
+    "rank": 10438
+  }],
+  "similar_sites_by_rank": [{
+    "site": "google.com",
+    "screenshot": "https://site-images.similarcdn.com/image?url=google.com&t=0&s=1&h=300811983108016870",
+    "rank": 1
+  }, {
+    "site": "facebook.com",
+    "screenshot": "https://site-images.similarcdn.com/image?url=facebook.com&t=0&s=1&h=1215141726915202198",
+    "rank": 2
+  }, {
+    "site": "yahoo.com",
+    "screenshot": "https://site-images.similarcdn.com/image?url=yahoo.com&t=0&s=1&h=5279323672926511723",
+    "rank": 9
+  }, {
+    "site": "bing.com",
+    "screenshot": "https://site-images.similarcdn.com/image?url=bing.com&t=0&s=1&h=17861410999050535392",
+    "rank": 46
+  }, {
+    "site": "answers.com",
+    "screenshot": "https://site-images.similarcdn.com/image?url=answers.com&t=0&s=1&h=16702186871611929971",
+    "rank": 4156
+  }, {
+    "site": "webcrawler.com",
+    "screenshot": "https://site-images.similarcdn.com/image?url=webcrawler.com&t=0&s=1&h=6798439711187463300",
+    "rank": 5080
+  }, {
+    "site": "dogpile.com",
+    "screenshot": "https://site-images.similarcdn.com/image?url=dogpile.com&t=0&s=1&h=11581571143950127821",
+    "rank": 6277
+  }, {
+    "site": "excite.com",
+    "screenshot": "https://site-images.similarcdn.com/image?url=excite.com&t=0&s=1&h=1520926905632194335",
+    "rank": 10438
+  }, {
+    "site": "info.com",
+    "screenshot": "https://site-images.similarcdn.com/image?url=info.com&t=0&s=1&h=18082935304423230119",
+    "rank": 10557
+  }, {
+    "site": "search.com",
+    "screenshot": "https://site-images.similarcdn.com/image?url=search.com&t=0&s=1&h=4295980027842522531",
+    "rank": 11574
+  }],
+  "mobile_apps": {
+    "0 com.apn.mobile.browser.cellallure": {
+      "key": 0,
+      "app_id": "com.apn.mobile.browser.cellallure",
+      "title": "Cellallure Browser",
+      "cover": "//lh3.googleusercontent.com/LwCqEJtWiSUweVZOE6kcUxU2eWB7GRL8xczJZF6Gy8w-JqQ-gdPdiW-yRaNZ7pEv2dI=w300",
+      "author": "APN, LLC",
+      "category": "Communication",
+      "price": "Free",
+      "rating": 3.846153736114502,
+      "rating_count": 78,
+      "valid": true
+    },
+    "0 com.apn.mobile.browser.cherry": {
+      "key": 0,
+      "app_id": "com.apn.mobile.browser.cherry",
+      "title": "Cherry Mobile Browser",
+      "cover": "//lh3.googleusercontent.com/YV_62AYk6xWGuK6PH4OempzowGMg9V705meeb8tEXZP8Z6VSJLHDR-D2tVJoMhJ9zhWW=w300",
+      "author": "APN, LLC",
+      "category": "Communication",
+      "price": "Free",
+      "rating": 4.2440271377563477,
+      "rating_count": 586,
+      "valid": true
+    },
+    "0 com.apn.mobile.browser.coolpad": {
+      "key": 0,
+      "app_id": "com.apn.mobile.browser.coolpad",
+      "title": "Coolpad Browser",
+      "cover": "//lh3.googleusercontent.com/-W10DGa8tyK6fKIj2_nu9FOA9TT2URMP-BZx3w09vG6YZIqMI92OE3ezuvCBm76dt64=w300",
+      "author": "APN, LLC",
+      "category": "Communication",
+      "price": "Free",
+      "rating": 4.2947559356689453,
+      "rating_count": 553,
+      "valid": true
+    },
+    "0 com.apn.mobile.browser.infosonics": {
+      "key": 0,
+      "app_id": "com.apn.mobile.browser.infosonics",
+      "title": "Infosonics Browser",
+      "cover": "//lh3.googleusercontent.com/oJvq9hxeChB9N_7NgCuBHaZ2-EF1cKtn8PPKjvP1N25njUYL5VOjzzij-O9XUypSfg=w300",
+      "author": "APN, LLC",
+      "category": "Communication",
+      "price": "Free",
+      "rating": 4.1578946113586426,
+      "rating_count": 969,
+      "valid": true
+    },
+    "0 com.apn.mobile.browser.multilaser": {
+      "key": 0,
+      "app_id": "com.apn.mobile.browser.multilaser",
+      "title": "Multilaser Browser",
+      "cover": "//lh3.googleusercontent.com/Xcfe4eMe-P5Hftl6TY0lu5tfPt6vzfjxO1fCPuBfrbkT792c4afQXdO-zygbh4k3AAE=w300",
+      "author": "APN, LLC",
+      "category": "Communication",
+      "price": "Free",
+      "rating": 4.1268658638000488,
+      "rating_count": 1206,
+      "valid": true
+    },
+    "0 com.apn.mobile.browser.swipe": {
+      "key": 0,
+      "app_id": "com.apn.mobile.browser.swipe",
+      "title": "Swipe Browser",
+      "cover": "//lh3.googleusercontent.com/a-NEACGtNL8MzkWLbUW2VWnOGxNkdKwg2s4PvGr7X1M9WREJKo8S7Q6MiZpx8cB9iIU=w300",
+      "author": "APN, LLC",
+      "category": "Communication",
+      "price": "Free",
+      "rating": 3.8190994262695312,
+      "rating_count": 1288,
+      "valid": true
+    },
+    "0 com.apn.mobile.browser.utl": {
+      "key": 0,
+      "app_id": "com.apn.mobile.browser.utl",
+      "title": "UTL Browser",
+      "cover": "//lh3.googleusercontent.com/ephjVuz3JFrf2gbs2xlzSKNwNS-SyXbCAkMCJw44JdYex3F8oES4jDJCGGNqoox23b85=w300",
+      "author": "APN, LLC",
+      "category": "Communication",
+      "price": "Free",
+      "rating": 4.2362871170043945,
+      "rating_count": 237,
+      "valid": true
+    },
+    "0 com.apn.search": {
+      "key": 0,
+      "app_id": "com.apn.search",
+      "title": "Search Widget: Web & Phone",
+      "cover": "//lh3.ggpht.com/-Bt041K--lYYTCS5SheycG5aCYBujIO823YRlTLy8Itfjk641GhfJMb1E7qnz15ChzU=w300",
+      "author": "APN, LLC",
+      "category": "Tools",
+      "price": "Free",
+      "rating": 4.1500000953674316,
+      "rating_count": 320,
+      "valid": true
+    }
+  },
+  "daily_visits_min_date": "2017-08-01",
+  "daily_visits_max_date": "2018-01-31"
+}

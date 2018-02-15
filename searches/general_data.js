@@ -1,12 +1,23 @@
-// find a particular previousmonthvisits by name
-const dateFormat = require('dateformat');
+var dateFormat = require('dateformat');
 
-const lastMonth = () => {
-  var now = new Date();
-  now.setDate(1);
-  now.setMonth(now.getMonth() - 1);
+const transform = (source) => {
+  const getRecentVisits = (visits) => {
+    const dates = Object.keys(visits).map((s) => Date.parse(s));
+    const recent = dateFormat(Math.max(...dates), "yyyy-mm-dd");
 
-  return dateFormat(now, "yyyy'-'mm");
+    return visits[recent];
+  };
+
+  return {
+    title: source.title,
+    description: source.description,
+    category: source.category,
+    engagements_visits: source.engagments.visits,
+    engagements_time_on_site: source.engagments.time_on_site,
+    engagements_page_per_visit: source.engagments.page_per_visit,
+    engagements_bounce_rate: source.engagments.page_per_visit,
+    visits: getRecentVisits(source.estimated_monthly_visits)
+  };
 };
 
 const search = (z, bundle) => {
@@ -18,15 +29,13 @@ const search = (z, bundle) => {
   });
 
   return responsePromise.then((response) => {
-    const results = [];
-
     if (response.status == 200) {
-      results.push(z.JSON.parse(response.content));
+      const parsed = z.JSON.parse(response.content);
+      return [transform(parsed)];
     }
 
-    return results;
+    return [];
   });
-  //return responsePromise.then(response => console.log(response));
 };
 
 module.exports = {
@@ -47,12 +56,24 @@ module.exports = {
 
     sample: {
       title: 'website title',
-      estimated_monthly_visits: { "2017-08-01": 255531415, "2017-09-01": 227030315 }
+      description: 'website description',
+      category: 'website category',
+      engagements_visits: 220857250,
+      engagements_time_on_site: 261,
+      engagements_page_per_visit: 2.4,
+      engagements_bounce_rate: 0.536,
+      estimated_visits_last_month: 255531415
     },
 
     outputFields: [
-      { key: 'estimated_monthly_visits', label: 'Estimated Monthly Visits' },
-      { key: 'title', label: 'Title' }
+      { key: 'visits', label: 'Estimated Visits (Last Month)' },
+      { key: 'title', label: 'Title' },
+      { key: 'description', label: 'Description' },
+      { key: 'category', label: 'Category' },
+      { key: 'engagements_visits', label: 'Engagement (Visits)' },
+      { key: 'engagements_time_on_site', label: 'Engagement (Time On Site)' },
+      { key: 'engagements_page_per_visit', label: 'Engagement (Pages Per Visit)' },
+      { key: 'engagements_bounce_rate', label: 'Engagement (Bounce Rate)' }
     ]
   }
 };
